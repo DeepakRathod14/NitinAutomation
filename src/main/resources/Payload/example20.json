@@ -1,0 +1,55 @@
+{
+	"companyName": "MSE",
+	"companyHOCity": "Benagluru",
+	"companyCEO": "Amod",
+	"supportedSalaryBanks": [
+		"HDFC",
+		"ICICI",
+		"AXIS"
+	],
+	"pincodesOfCityOffice": [
+		560037,
+		360034,
+		456343
+	],
+	"employee": [
+		{
+			"ID": 763055342,
+			"Name": "Deepak",
+			"Address": "java.util.Random@27bc2616",
+			"Mobile": 3784326990499246765
+		},
+		{
+			"ID": 763055343,
+			"Name": "Nitin",
+			"Address": "java.util.Random@27bc2616",
+			"Mobile": 3784326990499246764
+		},
+		{
+			"ID": 763055344,
+			"Name": "Tarun",
+			"Address": "java.util.Random@27bc2616",
+			"Mobile": 3784326990499246769
+		}
+	],
+	"contractors": [
+		{
+			"firstName": "Seema",
+			"lastName": "Singh",
+			"contractFrom": "Jan-2019",
+			"contractTo": "JAN-2025"
+		},
+		{
+			"firstName": "Hari",
+			"lastName": "Prasad",
+			"contractFrom": "Jan-2017",
+			"contractTo": "JAN-2030"
+		}
+	],
+	"companyPFDeails": {
+		"pfName": "XYZ",
+		"pfCity": "Benagluru",
+		"pfYear": 2012,
+		"noOfEmployees": 10
+	}
+}

@@ -1,0 +1,24 @@
+[
+    {
+        "firstname": "Amod",
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2021-08-01",
+            "checkout": "2021-08-02"
+        },
+        "totalprice": 222,
+        "depositpaid": true,
+        "lastname": "Mahajan"
+    },
+    {
+        "firstname": "Animesh",
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2021-07-01",
+            "checkout": "2021-07-01"
+        },
+        "totalprice": 111,
+        "depositpaid": true,
+        "lastname": "Prashant"
+    }
+]

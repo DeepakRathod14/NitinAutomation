@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NitinAutomation" >
+	<parameter name="browser" value="chrome" />
+	<test name="TextBox">
+		<parameter name="url" value="https://demoqa.com/text-box" />
+		<classes>
+			<class
+				name="nitin.automation.tdd.ui.file_module.TestTextBoxScript" />
+		</classes>
+	</test>
+
+	<test name="Buttons">
+		<parameter name="url" value="https://demoqa.com/buttons" />
+		<classes>
+			<class
+				name="nitin.automation.tdd.ui.isheet_module.TestButtonScript" />
+		</classes>
+	</test>
+
+	<!-- Better to visit this URL for reference -->
+	<!-- https://www.toolsqa.com/testng/testng-parallel-execution/ -->
+</suite>
