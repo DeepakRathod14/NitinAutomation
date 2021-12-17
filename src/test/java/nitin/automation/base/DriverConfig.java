@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Optional;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class DriverConfig {
 
 	protected WebDriver driver;
@@ -15,11 +17,11 @@ public class DriverConfig {
 	
 	public void loadBrowser(@Optional("chrome") String browser) {
 		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\Personal\\Learning\\Automation\\Selenium\\chromedriver_win32\\chromedriver.exe");
-			driver = new ChromeDriver();//Open Chrome browser
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "D:\\Personal\\Learning\\Automation\\Selenium\\geckodriver-v0.30.0-win64\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();//FF Browser Open
 		}
 		else {
