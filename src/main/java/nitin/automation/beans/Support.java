@@ -12,36 +12,36 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "bookingid",
-    "booking"
+    "url",
+    "text"
 })
-public class BookingInfo {
+public class Support {
 
-    @JsonProperty("bookingid")
-    private Integer bookingid;
-    @JsonProperty("booking")
-    private Booking booking;
+    @JsonProperty("url")
+    private String url;
+    @JsonProperty("text")
+    private String text;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
-    @JsonProperty("bookingid")
-    public Integer getBookingid() {
-        return bookingid;
+    @JsonProperty("url")
+    public String getUrl() {
+        return url;
     }
 
-    @JsonProperty("bookingid")
-    public void setBookingid(Integer bookingid) {
-        this.bookingid = bookingid;
+    @JsonProperty("url")
+    public void setUrl(String url) {
+        this.url = url;
     }
 
-    @JsonProperty("booking")
-    public Booking getBooking() {
-        return booking;
+    @JsonProperty("text")
+    public String getText() {
+        return text;
     }
 
-    @JsonProperty("booking")
-    public void setBooking(Booking booking) {
-        this.booking = booking;
+    @JsonProperty("text")
+    public void setText(String text) {
+        this.text = text;
     }
 
     @JsonAnyGetter

@@ -3,7 +3,6 @@ package nitin.automation.beans;
 
 import java.util.HashMap;
 import java.util.Map;
-import javax.annotation.Generated;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -16,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "checkin",
     "checkout"
 })
-@Generated("jsonschema2pojo")
+
 public class Bookingdates {
 
     @JsonProperty("checkin")
